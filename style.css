@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    html {
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    }
+
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background: url(cD.png) no-repeat center / cover;
+        color: white;
+    }
+    .container {
+        width: 90%;
+        height: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .container .info h1 {
+        font-size: 1.5rem;
+       
+    }
+    
+    .container .info h2 {
+        font-size: 3rem;
+     
+    }
+    
+    .container .info a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: #C0571D;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 0.5em 2em;
+        color: rgb(255, 255, 255);
+    }
+
+      header, footer {
+        position: absolute;
+        background: #C0571D;
+        color: #f1f1f1;
+        width: 100%;
+        text-align: center;
+    }
+  
+    header{
+      height: 10vh;
+    }
+  
+    footer {
+      bottom: 0%;
+    }
+  
+    .my {
+        display: flex;
+        text-align: center;
+    }
+
+    .my > div {
+        width: 33%
+    }
+    p{
+        text-align: center;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        html {
+            font-size: 10px;
+        }
+    }
+    
+   
